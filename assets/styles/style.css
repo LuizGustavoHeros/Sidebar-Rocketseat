@@ -1,0 +1,29 @@
+.mudar {
+  background-color: black;
+}
+.botao {
+  border: none;
+  background: var(--green);
+  padding: 10px;
+}
+.botao :hover {
+  cursor: pointer;
+}
+.menu-buttom {
+  background-color: var(--green); 
+  width: 3rem;
+  height: 100vh;
+}
+.menu-item {
+  background-color: var(--green); 
+  padding: 10px;
+}
+.bottom-item-exit {
+  margin-top: 50.8vh;
+  padding: 10px;
+  background-color: var(--light-green);
+}
+.menu-info{
+  display: flex;
+  flex-direction: row;
+}
