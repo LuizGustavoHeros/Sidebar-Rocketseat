@@ -1,6 +1,10 @@
-.mudar {
-  background-color: black;
+.menu-buttom {
+  background-color: var(--green); 
+  width: 44px;
+  height: 100vh;
+  overflow-x: hidden;
 }
+
 .botao {
   border: none;
   background: var(--green);
@@ -9,15 +13,10 @@
 .botao :hover {
   cursor: pointer;
 }
-.menu-buttom {
-  background-color: var(--green); 
-  width: 3rem;
-  height: 100vh;
-}
 .menu-item {
-  background-color: var(--green); 
   padding: 10px;
 }
+
 .bottom-item-exit {
   margin-top: 50.8vh;
   padding: 10px;
@@ -26,4 +25,22 @@
 .menu-info{
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: start;
 }
+
+.menu-info:hover{
+  background: var(--light-green);
+}
+
+.mudar {
+  width: 175px;
+  transition: 1s;
+}
+
+input {
+  width: 7rem;
+  border: none;
+  border-radius: 10px;
+}
+
