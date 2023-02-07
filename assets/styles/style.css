@@ -1,3 +1,15 @@
+.titulo {
+  position: absolute;
+  margin-left: 50px;
+  font-size: 26px;
+}
+.titulo-open {
+  position: absolute;
+  margin-left: 180px;
+  font-size: 26px;
+  transition: 1s;
+}
+
 .menu-buttom {
   background-color: var(--green); 
   width: 44px;
@@ -10,6 +22,25 @@
   background: var(--green);
   padding: 10px;
 }
+.logo {
+  display: none;
+  padding: 10px;
+  position: absolute;
+  
+}
+.logo-ativo {
+  display: block;
+  
+}
+
+.botao-ativo {
+  border: none;
+  background: var(--green);
+  padding: 10px;
+  margin-left: 8rem;
+  transition: 1s;
+}
+
 .botao :hover {
   cursor: pointer;
 }
@@ -17,11 +48,9 @@
   padding: 10px;
 }
 
-.bottom-item-exit {
-  margin-top: 50.8vh;
-  padding: 10px;
-  background-color: var(--light-green);
-}
+
+
+
 .menu-info{
   display: flex;
   flex-direction: row;
@@ -41,6 +70,40 @@
 input {
   width: 7rem;
   border: none;
-  border-radius: 10px;
+  border-radius: 4px;
 }
+.menu-item-exit {
+  margin-top: 50.8vh;
+  background: var(--light-green);
+}
+.botao-exit {
+  padding: 10px;
+}
+.botao-exit-ativo {
+  background: var(--light-green);
+  margin-left: 8rem;
+  transition: 1s;
+  padding: 10px;
+}
+.info-exit {
+  display: none;
+  opacity: 0;
+}
+.info-exit-active {
+  width: 4rem;
+  position: absolute;
+  transition: 1s;
+  display: flex;
+  flex-direction: row;
+  opacity: 1;
+  
+}
+.photo {
+  width: 3.5rem;
+  border-radius: 15px;
+  transition: 1s;
+  padding: 5px;
+
+}
+
 

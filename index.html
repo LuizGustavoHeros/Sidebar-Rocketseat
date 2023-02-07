@@ -16,12 +16,14 @@
 </head>
 
 <body>
+  <h1 class="titulo">Dashboard</h1>
   <nav class="menu-buttom" id="menu">
+    <img class="logo" src="./assets/images/logo.svg">
     <button onclick="clicou()" class="botao"><img src="./assets/images/menu.svg"></button>
 
     <div class="menu-info">
       <p class="menu-item"><img src="./assets/images/search.svg"></p>
-      <input class="info input">
+      <input class="info input" placeholder="Buscar">
     </div>
     <div class="menu-info">
       <p class="menu-item"><img src="./assets/images/grid.svg"></p>
@@ -43,9 +45,12 @@
       <p class="menu-item"><img src="./assets/images/settings.svg"></p>
       <span class="info">Ajustes</span>
     </div>
-    <div>
-      <p class="bottom-item-exit"><img src="./assets/images/log-out.svg"></p>
-
+    <div class="menu-item-exit">
+      <div class="info-exit">
+        <img class="photo" src="./assets/images/photo.jpg">
+        <span class="text-perfil">Eleanor Pena</span>
+      </div>
+      <img class="botao-exit" src="./assets/images/log-out.svg">
     </div>
   </nav>
   <script src="script.js"></script>
